@@ -15,6 +15,7 @@ const App = () =>{
     const data = await response.json();
     setNews(data.articles);
     console.log(data);
+    console.log("hi");
   }
 
   return(
